@@ -1,0 +1,39 @@
+# 🏢 Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# 📦 Ignorar dependências e ambientes virtuais do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.vscode/
+.idea/
+*.log
+
+# 📂 Ignorar dependências geradas pelo Poetry
+mock_api/src/.venv/
+wishlist_developer_test/src/.venv/
+poetry.lock
+
+# 🚀 Ignorar arquivos de cache do Docker
+docker/.env
+docker-compose.override.yml
+
+# 🔧 Ignorar arquivos de logs e temporários
+*.swp
+*.swo
+logs/
+debug.log
+nohup.out
+
+# 📂 Ignorar produtos gerados no runtime
+instance/
+*.sqlite3
+*.db
+
+# 🐳 Ignorar arquivos do Docker que não devem ser versionados
+docker/data/
+docker-compose.override.yml
